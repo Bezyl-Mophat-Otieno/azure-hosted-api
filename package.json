@@ -11,7 +11,6 @@
     "uuid": "^9.0.0"
   },
   "scripts": {
-    "test": "jest --watch",
     "dev": "nodemon server.js"
   },
   "engines": {

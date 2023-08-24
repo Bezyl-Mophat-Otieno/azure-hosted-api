@@ -1,7 +1,7 @@
 import express, { json, urlencoded } from "express";
 import studentRouter from "./routes/student.routes.js";
 import { dbConnection } from "./database/db.js";
-const port = 5000;
+const port = process.env.DB_PORT || 5000;
 const app = express();
 
 app.use(json());
