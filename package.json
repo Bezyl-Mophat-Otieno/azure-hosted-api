@@ -18,7 +18,6 @@
   },
   "name": "tdd-first-school-system",
   "version": "1.0.0",
-  "main": "jest.config.js",
   "keywords": [],
   "author": "",
   "license": "ISC",
