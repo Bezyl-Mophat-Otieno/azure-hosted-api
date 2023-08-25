@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'newfmsapi'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9709FE542DE14BF2939CBA26ACF0BD90 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8F0B5DA293E34E70836FC1DE0F028FAB }}
           package: .
