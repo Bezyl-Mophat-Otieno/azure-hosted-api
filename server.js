@@ -8,6 +8,9 @@ app.use(json());
 app.use(urlencoded({ extended: true }));
 
 app.use("/api/student", studentRouter);
+app.get("/", (req, res) => {
+  res.send("Hello World");
+});
 
 app.listen(port, async () => {
   await dbConnection();
